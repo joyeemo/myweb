@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joi_M's projectS</title>
+    <!-- <link rel="stylesheet"  type="text/css" href="./gridtest.css"> -->
+    <!-- /* 调用css */ -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Han+Sans&display=swap">
+    <!-- 调用思源黑体库 -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* 区别于content-box, 会自动向周边border */
+            font-family: "Source Han Sans", sans-serif;
+            /* 使用思源黑体 */
+            font-size: 8px;
+            color: #b1b1b8;
+        }
+
+        p,
+        h2 {
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+
+        h2 {
+            margin-top: 4vh;
+            margin-left: 8%;
+            margin-right: 8%;
+            font-size: min(5vw, 30px);
+            border-bottom: 2px solid;
+            border-color: rgba(177, 177, 185, 0.7);
+        }
+
+        #h2-1 {
+            margin-top: 10vh;
+        }
+
+        .background-img-container {
+            z-index: -1000;
+            position: fixed;
+            background-color: black;
+            background-image: url("https://lsky.yanlanfeixue.com:66/i/2023/11/23/655ec21ea7082.jpg");
+            /* background-image: url("https://wsrv.nl/?url=http://yanlanfeixue.com:4565/i/2023/11/25/65611aba15743.jpg"); */
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* 初始化 */
+        .wrap {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: auto;
+            /* background-color: chartreuse; */
+        }
+
+        .con {
+            width: 90vw;
+            height: auto;
+            padding: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2%;
+            margin-bottom: 2%;
+
+            padding: 1%;
+
+            background: rgba(0, 0, 0, 0.3);
+            box-shadow: .5vw .5vw 2vw 0vw rgba(176, 176, 186, 0.4);
+            border-radius: 4vw;
+
+            display: flex;
+            object-fit: cover;
+            justify-content: space-evenly;
+            align-content: center;
+            flex-wrap: wrap;
+
+        }
+
+        .title-container {
+            position: fixed;
+            width: 100%;
+            height: auto;
+            z-index: 500;
+        }
+
+        .title {
+            font-size: 16px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 1em;
+            box-shadow: 0px 0px 20vw 0px;
+            white-space: nowrap;
+        }
+
+        img {
+            width: auto;
+            height: auto;
+            object-fit: cover;
+            z-index: 499;
+        }
+
+        .img-box {
+            padding: 1vw;
+            border-radius: 3vw;
+            z-index: 498;
+        }
+
+        @media (min-aspect-ratio:1/1) {
+            .background-img-container {
+                background-image: url("https://lsky.yanlanfeixue.com:66/i/2023/11/25/65611aba15743.jpg");
+                background-color: darkslategray;
+            }
+
+            .con {
+                width: 70vw;
+            }
+        }
+
+        /* 宽>高的方案 */
+    </style>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="background-img-container"></div>
+        <div class="title-container">
+            <h1 class="title">>> Joi.M’s ProjectS ヾ(＠^∇^＠)ノ</h1>
+        </div>
+        <h2 id="h2-1">· 全案IP设计</h2>
+        <div class="con">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/65486cb0773e5.jpg" alt="《那些咕》封面.jpg" class="img-box"
+                style="width: 50%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/65486ce632651.jpg" alt="《安贝星》" class="img-box"
+                style="width: 50%" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/65487675828b6.jpg" alt="CGG" class="img-box"
+                style="width: 100%;" />
+        </div>
+        <p style="text-align: right; "><a href="https://docs.qq.com/pdf/DQlFNaHZTd05DaFZU"
+                style="font-size: 1.5vw;">☞【查看】腾讯文档-《那些咕》</a></p>
+        <h2>· 创意分镜案</h2>
+        <div class="con">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/654670e45647f.jpg" class="img-box"
+                style="width: 45%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/654670e47e836.jpg" class="img-box"
+                style="width: 55%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/654670e4c4c8e.jpg" title="车载精灵漫画2.jpg" class="img-box"
+                style="width: 33.3%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/654670e4c51a6.jpg" alt="车载精灵漫画1.jpg"
+                title="车载精灵漫画1.jpg" class="img-box" style="width: 33.3%;">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/654670e4a0b31.jpg" alt="车载精灵漫画3.jpg"
+                title="车载精灵漫画3.jpg" class="img-box" style="width: 33.3%;" />
+        </div>
+        <h2>· 动画随笔<del>PDF页此处无法显示动图</del></h2>
+        <div class="con">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2024/05/24/664fee8e471ec.gif" alt="shot.gif" title="shot.gif"
+                class="img-box" style="width: 30%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2024/05/24/664fee8e6c7f2.gif" alt="combinegif.gif"
+                title="combinegif.gif" class="img-box" style="width: 70%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/65487ec689ed9.gif" alt="ezgif.com-video-to-gif.gif"
+                title="ezgif.com-video-to-gif.gif" class="img-box" style="width: 33%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2024/05/30/6657a80d182e4.gif" alt="帽子0001-0250.gif"
+                title="帽子0001-0250.gif" class="img-box" style="width: 33%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2024/05/30/6657a80ae63d8.gif" alt="240528pixel.gif"
+                title="240528pixel.gif" class="img-box" style="width: 20%;">
+
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/6546720095a58.gif" alt="贪凉.gif" title="贪凉.gif"
+                class="img-box" style="width: 33%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65467200dea38.gif" alt="ezgif.com-video-to-gif.gif"
+                title="ezgif.com-video-to-gif.gif" class="img-box" style="width: 33%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655ba126b2f32.gif" alt="checkb.gif" title="checkb.gif"
+                class="img-box" style="width: 33%;" />
+        </div>
+        <h2>· 3D角色设计</h2>
+        <div class="con">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466cfc0dff7.png" title="大帽子小巫婆b.png" class="img-box"
+                style="width: 33%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/6548a1d50525f.jpg" alt="robo.jpg" title="robo.jpg"
+                class="img-box" style="width: 33%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466e9f4262a.png" alt="daijin.png" title="daijin.png"
+                class="img-box" style="width: 33%;" />
+
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/17/655678dc24425.png" alt="putin.png" title="putin.png"
+                class="img-box" style="width: 33%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466ea07e93b.png" alt="tuitui2.png"
+                title="tuitui2.png" class="img-box" style="width: 33%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2024/05/24/6650039cd7025.jpg" alt="jpgjpg黑白.jpg"
+                title="jpgjpg黑白.jpg" class="img-box" style="width: 33%;" />
+        </div>
+        <h2>· 视频全期</h2>
+        <div class="con">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655bd71e50c18.gif" alt="咖啡.gif" title="咖啡.gif"
+                class="img-box" style="width: 20%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655bd71d6a380.gif" alt="牛奶.gif" title="牛奶.gif"
+                class="img-box" style="width: 20%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655bd71b7b831.gif" alt="JD轮胎节.gif" title="JD轮胎节.gif"
+                class="img-box" style="width: 60%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655bd7278d874.gif" alt="jb.gif" title="jb.gif"
+                class="img-box" style="width: 50%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655bd72e013fa.gif" alt="3Dani.gif" title="3Dani.gif"
+                class="img-box" style="width: 50%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655bd72368d52.gif" alt="wz01.gif" title="wz01.gif"
+                class="img-box" style="width: 50%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655bd71cee351.gif" alt="wz02.gif" title="wz02.gif"
+                class="img-box" style="width: 50%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655bd72b9fa77.gif" alt="wz03.gif" title="wz03.gif"
+                class="img-box" style="width: 50%;" />
+        </div>
+        <h2>· 美术和设计</h2>
+        <div class="con">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/6548887cb236a.jpg" alt="枕头王座2560Q.jpg"
+                title="枕头王座2560Q.jpg" class="img-box" style="width: 70%;" />
+                <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466ea00b979.png" alt="大帽帽流程.png" title="大帽帽流程.png"
+                class="img-box" style="width: 30%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/6548887cc97f4.png" alt="鸡.png" title="鸡.png"
+                class="img-box" style="width: 30%;" />
+
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/65488b7575fd6.jpg" alt="游戏卡通角色设计.jpg"
+                title="游戏卡通角色设计.jpg" class="img-box" style="width: 70%;" />
+
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/6546709e2551e.jpg" alt="2023114-234803.jpg"
+                title="2023114-234803.jpg" class="img-box" style="width: 25%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/6546709f16ada.jpg" alt="230429炼金术士.jpg"
+                title="230429炼金术士.jpg" class="img-box" style="width: 25%;" />
+
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/6546709e4ed6f.jpg" alt="bunny.jpg" title="bunny.jpg"
+                class="img-box" style="width: 25%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/6546709f5b418.jpg" alt="采药呢.jpg" title="采药呢.jpg"
+                class="img-box" style="width: 25%;" />
+
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/6548887ccd03f.jpg" alt="杂改图.jpg" title="杂改图.jpg"
+                class="img-box" style="width: 100%;" />
+        </div>
+        <h2>· 角色IP设计</h2>
+        <div class="con">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/65487938e9e65.png" alt="三合一.png" title="三合一.png"
+                class="img-box" style="width: 50%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/65487938d25f3.jpg" alt="停车场.jpg" title="停车场.jpg"
+                class="img-box" style="width: 50%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/6548779b39867.jpg" alt="三合一.png" title="三合一.png"
+                class="img-box" style="width: 100%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/06/65486cb055b13.jpg" alt="小麒节日.jpg" title="小麒节日.jpg"
+                class="img-box" style="width: 100%;" />
+        </div>
+
+        <h2>· SD AI</h2>
+        <div class="con">
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466f8fc412d.png" alt="ComfyUI_00712_.png"
+                title="ComfyUI_00712_.png" class="img-box" style="width: 16%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466f8edaa51.png" alt="ComfyUI_00696_.png"
+                title="ComfyUI_00696_.png" class="img-box" style="width: 16%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466f8f92d0b.png" alt="ComfyUI_00701_.png"
+                title="ComfyUI_00701_.png" class="img-box" style="width: 16%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466f90e81f8.png" alt="ComfyUI_00720_.png"
+                title="ComfyUI_00720_.png" class="img-box" style="width: 16%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466f9124a3a.png" alt="ComfyUI_00765_.png"
+                title="ComfyUI_00765_.png" class="img-box" style="width: 16%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/05/65466f91573cb.png" alt="ComfyUI_00722_.png"
+                title="ComfyUI_00722_.png" class="img-box" style="width: 16%;" />
+            <img src="https://lsky.yanlanfeixue.com:66/i/2023/11/21/655ba1aacb7f8.gif" alt="AI巨物恐惧.gif" title="AI巨物恐惧.gif"
+                class="img-box" style="width: 70%;" />
+        </div>
+    </div>
+</body>
+
+</html>
